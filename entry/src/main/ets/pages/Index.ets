@@ -2,7 +2,7 @@
 @Component
 struct Index {
   @State message: string = 'Hello World';
-
+  // 添加
   build() {
     RelativeContainer() {
       Text(this.message)
